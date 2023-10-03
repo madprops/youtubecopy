@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "YouTube Copy",
-    "version": "1.1",
+    "version": "1000",
     "description": "Copy the YouTube URL without the extra parameters",
     "permissions": [
         "activeTab"
