@@ -17,7 +17,7 @@ App.copy = async () => {
 
 	if (active.length) {
 		let url = active[0].url
-		let regex = /(?:[?&]v=|\/embed\/|\/v\/|\/youtu\.be\/|\/watch\?v=|\/embed\?v=)([A-Za-z0-9_-]{11})/
+		let regex = /([A-Za-z0-9_-]{11})/
 		let match = url.match(regex)
 
 		if (match) {
